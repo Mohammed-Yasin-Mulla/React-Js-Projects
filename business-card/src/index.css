@@ -1,0 +1,89 @@
+body {
+  background-color: #353741;
+  color: aliceblue;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+.cointainer {
+  margin: 30px auto;
+  display: flex;
+  width: 351px;
+  border-radius: 10px;
+
+  align-items: center;
+  flex-direction: column;
+  background-color: #1a1b21;
+}
+
+.Info-- {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Info--profilepic {
+  width: 100%;
+  height: 285px;
+  margin-top: 19px;
+  border-radius: 10px;
+}
+.Info--name {
+  font-size: 35px;
+  margin: 0;
+  font-weight: 800;
+}
+.Info--designation {
+  font-size: medium;
+  font-weight: 200;
+  color: #f3bf99;
+  margin-top: 3.72px;
+  margin-bottom: 6.72px;
+  letter-spacing: 4.3px;
+}
+.Info--buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.About--title {
+  margin-top: 16.72px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.About--text {
+  margin-top: -14px;
+  font-weight: 200;
+  padding: 0 14px;
+}
+
+.Interests--title {
+  margin-top: -3.28px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.Interests--text {
+  margin-top: -14px;
+  font-weight: 200;
+  padding: 0 14px;
+}
+.Footer-- {
+  width: 100%;
+  height: 64px;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  background-color: #53535e;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Footer-- > a > img {
+  width: 30px;
+  height: 30px;
+}
+.Footer-- > a :hover {
+  margin-top: 6px;
+}
