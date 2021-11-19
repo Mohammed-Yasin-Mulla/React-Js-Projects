@@ -1,0 +1,90 @@
+body{
+
+    font-family: 'Raleway', sans-serif;
+    background-color: #B8DBD9;
+}
+.navbar{
+    background-color: #2f4550;
+    font-family: 'Chivo', sans-serif;
+    box-shadow: 0px 2.98256px 7.4564px rgb(60, 61, 59);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
+.navbar--img{
+    
+    padding-right: 9px;
+
+padding-left: 13px;
+}
+.main{
+    border-radius: 20px;
+    background-color: #FEF4F4;
+    width:60%;
+   
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    justify-content: center;
+}
+.main--img{
+    border-radius: 10px;
+    background-color: blue;
+    width: 75%;
+    margin: 24px auto;
+    justify-self: flex-start;
+}
+.card{
+    background-color: #FEF4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+.card--img{
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards{
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    background-color: blueviolet;
+    align-items: center;
+}
+
+.card--stats{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    font-size: 13px;
+}
+.card--review{
+    margin: auto 15px;
+}
+.card--rating{
+    margin: auto 5px;
+}
+
+.gray{
+    color: grey;
+}
+.card--info{
+    margin: auto 12px;
+}
+.card--title{
+    margin-bottom: 5px;
+}
+.card--description{
+    font-size: 11px;
+    margin: 0 auto;
+}
