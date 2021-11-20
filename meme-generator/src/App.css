@@ -1,0 +1,79 @@
+body {
+  color: black;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 66px;
+  background: rgb(121, 9, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 9, 105, 1) 35%,
+    rgba(166, 0, 255, 0.45989733784138653) 100%
+  );
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px -4px 10px -6px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px -4px 10px -6px rgba(0, 0, 0, 0);
+}
+
+.header--logo-container {
+  display: flex;
+  margin: auto 25px;
+  justify-self: flex-start;
+}
+.header--logo {
+  width: auto;
+  height: 55px;
+}
+.header--logo-text {
+  font-size: 30px;
+  margin: auto 10px;
+  font-weight: 900;
+}
+.header--project-text {
+  font-weight: 400;
+  margin: auto 25px;
+}
+
+.main {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 50px auto 24px auto;
+}
+.main--input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.main--input > input {
+  width: 100%;
+  margin: auto 15px;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 10px;
+  height: 24px;
+}
+.main--button {
+  background: rgb(121, 9, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 9, 105, 1) 35%,
+    rgba(166, 0, 255, 0.45989733784138653) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  color:white;
+  border-radius: 5px;
+  width: 95%;
+  height: 35px;
+  
+}

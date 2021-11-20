@@ -60,6 +60,7 @@ padding-left: 13px;
     gap: 20px;
     background-color: blueviolet;
     align-items: center;
+    overflow-x: auto;
 }
 
 .card--stats{
