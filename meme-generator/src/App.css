@@ -77,3 +77,7 @@ body {
   height: 35px;
   
 }
+.main--img{
+  width: 75%;
+  margin: auto;
+}
