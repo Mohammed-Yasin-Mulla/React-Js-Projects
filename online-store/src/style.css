@@ -199,3 +199,12 @@ padding: 8px;
       text-align: center;
       margin: 2px auto;
   }
+
+  .item--list{
+    color: #e5e5e5;
+    margin: 10px auto;
+    width: 100px;
+    font-size: 23px;
+    line-height: 40px;
+    list-style: none;
+  }
