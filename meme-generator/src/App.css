@@ -77,7 +77,37 @@ body {
   height: 35px;
   
 }
+
+.meme {
+  position: relative;
+}
+
 .main--img{
   width: 75%;
   margin: auto;
+}
+
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+ 
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
